@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #32455B; /* Dark blue background */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.logo {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: bold;
+  color: white; /* White color for the logo */
+  margin-bottom: 160px; /* Space between logo and form */
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  position: relative;
+}
+
+.login-subject {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #001f3f;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 18px; /* 폰트 크기를 키움 */
+  color: #292929;
+  margin-bottom: 20px;
+  text-align: center; /* 텍스트를 가운데에 배치 */
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #8ac0ff; /* Increased border width to make it bolder */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button, .register-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #3067A8;
+}
+
+.register-button {
+  background-color: #6c757d;
+}

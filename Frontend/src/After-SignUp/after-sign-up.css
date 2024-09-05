@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 400px;
+  height: 500px; /* 높이를 줄임 */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: #ffffff;
+  border-radius: 4px;
+  background-color: #ffffff;
+
+  margin: auto;
+}
+
+h2 {
+  white-space: nowrap; /* 한 줄에 나오도록 설정 */
+}
+
+.submit {
+  width: 150px;
+  height: 40px;
+  
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-top: 0%;
+  margin-bottom: 15%;
+
+  border: #3067A8;
+  border-radius: 4px;
+  background-color: #3067A8;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}

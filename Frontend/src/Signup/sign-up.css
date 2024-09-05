@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 400px;
+  min-height: 600px; /* 높이를 키움 */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: #ffffff;
+  border-radius: 4px;
+  background-color: #ffffff;
+
+  margin: auto;
+}
+
+h2 {
+  font-weight: bold;
+  padding: 15% 0 0 0;
+  text-indent: 4%;
+  text-align: left;
+}
+
+p {
+  font-size: 12px;
+  color: #4f4f4f;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.form-container {
+  min-width: 300px;
+  min-height: 500px; /* 높이를 키움 */
+}
+
+.form-fieldset {
+  border: none;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.form-input {
+  display: block;
+
+  width: 100%;
+  padding: 7%;
+  margin-top: 2%;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid #8ac0ff;
+}
+
+.form-input::placeholder {
+  font-weight: 500;
+  text-indent: 10%;
+}
+
+.submit {
+  width: 150px;
+  height: 40px;
+  
+  margin-left: 23%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 25%;
+
+  border: #3067A8;
+  border-radius: 4px;
+  background-color: #3067A8;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
